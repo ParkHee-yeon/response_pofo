@@ -1,0 +1,71 @@
+/*CSS를 설정하지 않은 태그에 기본적으로 요소가 들어있다. 이 요소를 제거해줘야한다.
+    아래 태그가 전체 태그의 요소를 0으로 설정해주는 코드이다.
+    CSS코드를 작성할 때, 뒤에 세미콜론(;)을 붙여줘야한다.
+    또한, CSS에서 스타일을 0px로 지정하고 싶은 경우 px을 제외하고 작성해줘야한다.(권장사항)*/
+*{
+    margin:0;
+    padding:0;
+    vertical-align:middle;
+    /*vertical-align:middle은 이미지와 이미지 사이의 위아래 공백을 사라지게 해준다.
+    하지만, 기본으로 잡혀있는 글자 높이가 흐트러지기 때문에 baseline으로 잡아줘야한다.*/
+    box-sizing:border-box;
+    /* padding과 border값은 넓이에 포함시키도록 하는 속성 */
+} 
+
+html{
+    font:normal 14px/1 "Montserrat";
+    /*
+        font: 글자굵기 글자크기 줄높이 글꼴종류 
+        (글자굵기가 normal은 굵기를 사용하지 않겠다는 의미 즉, 보통굵기를 사용하겠다는 의미)
+        (글자크기는 글자크기의 기본값을 의미 => 즉 위 코드에서는 글자크기의 기본값은 14px이다.)
+        (줄높이가 /1인 것은 줄간격을 사용하지않겠다는 의미)
+    */
+    color:#333;
+    overflow-y: scroll;
+    /* overflow 속성은 가로와 세로 스크롤 모두 설정하는 속성이다. 
+        overflow-y는 수직스크롤(세로)을 제어할때, overflow-x는 수평스크롤(가로)을 제어할때 사용한다. 
+        세로스크롤은 사라지면 안되기 때문에 임의로 overflow-y:scroll; 속성을 설정해줘야한다.    
+    */
+    background:#fff;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    /* 웹브라우저(html, body)의 기본 높이(height)는 0이기때문에 임의로 100%값으로 설정해줘야한다.
+        너비(width)도 0은 아니지만, 그래도 기본값이 100%가 아니기 때문에 기본으로 100%값으로 설정해줘야한다. */
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-size: 14px; 
+    font-weight: normal;
+} /*<h1>~<h6>의 글자크기를 모두 14px로 설정하고, 굵기도 보통굵기를 설정해주는 코드이다.*/
+
+ul, li{
+    list-style:none;
+    /*<ul>, <li> 태그는 기본적으로 앞에 모양이 뜬다. 그것을 없애기 위한 코드이다.*/
+}
+
+a{
+    text-decoration:none;
+    /* <a>태그는 기본값이 글자 밑에 줄이 생기므로 그 줄이 안생기도록 하는 설정 */
+    color:#333; 
+    /* <a>태그의 글자색은 기본이 파란색이므로 위에서 설정한 기본글자색과 같게 설정해준다 */
+}
+
+span, em, i, a{
+    vertical-align:baseline;
+}
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: left;
+} /* 플롯팅해제: 리셋에 등록 => 플롯팅 핵 */
+
+.blind{
+    display:block;
+    text-indent:-2000px;
+    overflow:hidden;
+}
+/* [중요] 위 코드 모두 웹브라우저의 기본설정을 해주는 코드이다. */
+ 

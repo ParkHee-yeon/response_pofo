@@ -1,0 +1,400 @@
+@media all and (max-width: 1170px) {
+  #wrap #header .container .gap .wrap #nav-wrap #nav > ul {
+    display: none;
+  }
+  #wrap #header .container .gap .wrap #nav-wrap #nav .mobile-hambuger-menu {
+    display: flex;
+  }
+  #wrap #main #section1 .container .gap .wrap .slide-container .slide-view .slide-wrap .slide .title h3 {
+    font-size: 1.53846vw;
+  }
+  #wrap #main #section1 .container .gap .wrap .slide-container .slide-view .slide-wrap .slide .title h2 {
+    font-size: 5.982905983vw;
+  }
+  #wrap #main #section2 {
+    padding: 90px 100px;
+  }
+  #wrap #main #section2 .container .gap .wrap .title {
+    padding: 0 0 60px 0;
+  }
+  #wrap #main #section2 .container .gap .wrap .content ul li .content-gap .content-wrap .content-bottom {
+    padding: 30px 15px;
+  }
+  #wrap #main #section2 .container .gap .wrap .content ul li .content-gap .content-wrap .content-bottom > span {
+    width: 17.5214vw;
+  }
+  #wrap #main #section3 {
+    padding: 90px 30px;
+  }
+  #wrap #main #section3 .container .gap .wrap .title {
+    padding: 0 0 60px 0;
+  }
+  #wrap #main #section3 .container .gap .wrap .title h2 {
+    font-size: 27px;
+  }
+  #wrap #main #section3 .container .gap .wrap .content > ul > li .content-gap .content-wrap ul {
+    padding: 12px;
+  }
+  #wrap #main #section6 {
+    padding: 90px 30px;
+  }
+  #wrap #main #section6 .container .gap .wrap .title {
+    padding: 0 0 60px 0;
+  }
+  #wrap #main #section6 .container .gap .wrap .title h2 {
+    font-size: 27px;
+  }
+  #wrap #main #section7 .container .gap .wrap .right-box .right-content-box {
+    padding: 80px;
+  }
+  #wrap #main #section8 {
+    padding: 90px 30px;
+  }
+  #wrap #main #section8 .container .gap .wrap .title {
+    padding: 0 0 60px 0;
+  }
+  #wrap #main #section8 .container .gap .wrap .title h2 {
+    font-size: 27px;
+  }
+  #wrap #main #section8 .container .gap .wrap .content .content-gap .content-wrap .content-mid a {
+    display: block;
+    width: 90%;
+  }
+  #wrap #main #section8 .container .gap .wrap .content .content-gap .content-wrap .content-mid a br {
+    display: none;
+  }
+  #wrap #main #section9 .container .gap .wrap span {
+    font-size: 18px;
+  }
+  #wrap #footer .container .gap .wrap {
+    width: 85%;
+    margin: 0 auto;
+  }
+  #wrap #footer .container .gap .wrap .top-box {
+    padding: 60px 0 30px 0;
+  }
+  #wrap #footer .container .gap .wrap .top-box .top-title1 h6 {
+    width: 100%;
+    font-size: 22px;
+  }
+}
+@media all and (max-width: 1024px) {
+  #wrap #main #section2 {
+    padding: 80px 0;
+  }
+  #wrap #main #section2 .container .gap .wrap .title {
+    padding: 0 0 40px 0;
+  }
+  #wrap #main #section2 .container .gap .wrap .title p {
+    font-size: 22px;
+  }
+  #wrap #main #section2 .container .gap .wrap .content ul {
+    flex-flow: row wrap;
+  }
+  #wrap #main #section2 .container .gap .wrap .content ul li {
+    width: 50%;
+  }
+  #wrap #main #section2 .container .gap .wrap .content ul li .content-gap {
+    margin: 15px;
+  }
+  #wrap #main #section2 .container .gap .wrap .content ul li .content-gap .content-wrap .content-bottom {
+    padding: 40px;
+  }
+  #wrap #main #section2 .container .gap .wrap .content ul li .content-gap .content-wrap .content-bottom p {
+    padding: 0 0 30px 0;
+  }
+  #wrap #main #section2 .container .gap .wrap .content ul li .content-gap .content-wrap .content-bottom > span a span strong {
+    font-size: 12px;
+    padding: 0 0 0 15px;
+  }
+  #wrap #main #section2 .container .gap .wrap .content ul li .content-gap .content-wrap .content-bottom > span a span i {
+    padding: 0 15px 0 0;
+  }
+  #wrap #main #section3 {
+    padding: 80px 60px;
+  }
+  #wrap #main #section3 .container .gap .wrap .title {
+    padding: 0 0 40px 0;
+  }
+  #wrap #main #section3 .container .gap .wrap .title h2 {
+    font-size: 24px;
+  }
+  #wrap #main #section3 .container .gap .wrap .content > ul {
+    flex-flow: row wrap;
+  }
+  #wrap #main #section3 .container .gap .wrap .content > ul > li {
+    width: 50%;
+  }
+  #wrap #main #section3 .container .gap .wrap .content > ul > li .content-gap {
+    margin: 15px;
+  }
+  #wrap #main #section3 .container .gap .wrap .content > ul > li .content-gap .content-wrap ul {
+    padding: 40px;
+  }
+  #wrap #main #section5 {
+    padding: 80px 60px;
+  }
+  #wrap #main #section5 .container .gap .wrap ul {
+    flex-flow: row wrap;
+  }
+  #wrap #main #section5 .container .gap .wrap ul li {
+    width: 50%;
+  }
+  #wrap #main #section5 .container .gap .wrap ul li .col-gap {
+    margin: 60px 0;
+  }
+  #wrap #main #section6 {
+    padding: 80px 60px;
+  }
+  #wrap #main #section6 .container .gap .wrap .title {
+    padding: 0 0 40px 0;
+  }
+  #wrap #main #section6 .container .gap .wrap .title h2 {
+    font-size: 24px;
+  }
+  #wrap #main #section6 .container .gap .wrap .content > ul {
+    flex-flow: row wrap;
+  }
+  #wrap #main #section6 .container .gap .wrap .content > ul > li {
+    width: 50%;
+  }
+  #wrap #main #section6 .container .gap .wrap .content > ul > li .content-gap {
+    margin: 15px;
+  }
+  #wrap #main #section7 .container .gap .wrap {
+    flex-flow: column wrap;
+  }
+  #wrap #main #section7 .container .gap .wrap .left-box {
+    width: 100%;
+    height: 400px;
+  }
+  #wrap #main #section7 .container .gap .wrap .right-box {
+    width: 100%;
+    text-align: center;
+  }
+  #wrap #main #section7 .container .gap .wrap .right-box .right-content-box {
+    padding: 85px;
+  }
+  #wrap #main #section7 .container .gap .wrap .right-box .right-content-box h2 {
+    font-size: 30px;
+  }
+  #wrap #main #section7 .container .gap .wrap .right-box .right-content-box p {
+    padding: 0 0 25px 0;
+  }
+  #wrap #main #section7 .container .gap .wrap .right-box .right-content-box a {
+    margin: 0 auto;
+  }
+  #wrap #main #section8 {
+    padding: 80px 60px;
+  }
+  #wrap #main #section8 .container .gap .wrap .title {
+    padding: 0 0 40px 0;
+  }
+  #wrap #main #section8 .container .gap .wrap .title h2 {
+    font-size: 24px;
+  }
+  #wrap #main #section8 .container .gap .wrap .content ul {
+    flex-flow: row wrap;
+  }
+  #wrap #main #section8 .container .gap .wrap .content ul li {
+    width: 50%;
+  }
+  #wrap #main #section8 .container .gap .wrap .content ul li .content-gap {
+    margin: 15px;
+  }
+  #wrap #main #section8 .container .gap .wrap .content ul li .content-gap .content-wrap .content-mid a {
+    width: 100%;
+  }
+  #wrap #main #section8 .container .gap .wrap .content ul li .content-gap .content-wrap .content-bottom {
+    padding: 20px 0 0 0;
+  }
+  #wrap #main #section9 {
+    padding: 60px 40px;
+  }
+  #wrap #main #section9 .container .gap .wrap {
+    flex-flow: column wrap;
+  }
+  #wrap #main #section9 .container .gap .wrap > span {
+    margin: 0 auto;
+    padding: 0 0 30px 0;
+    font-size: 18px;
+    text-align: center;
+    line-height: 130%;
+  }
+  #wrap #main #section9 .container .gap .wrap a {
+    margin: 0 auto;
+  }
+  #wrap #footer .container .gap .wrap .top-box {
+    flex-flow: row wrap;
+  }
+  #wrap #footer .container .gap .wrap .top-box .top-title1 {
+    width: 100%;
+    padding: 0 0 20px 0;
+  }
+  #wrap #footer .container .gap .wrap .top-box .top-title2 {
+    width: 50%;
+    padding: 0;
+  }
+  #wrap #footer .container .gap .wrap .top-box .top-title3 {
+    width: 50%;
+  }
+}
+@media all and (max-width: 768px) {
+  #wrap #main #section2 {
+    padding: 40px 0;
+  }
+  #wrap #main #section2 .container .gap .wrap .title {
+    padding: 0 0 40px 0;
+  }
+  #wrap #main #section2 .container .gap .wrap .title p {
+    font-size: 18px;
+    padding: 0 15px;
+  }
+  #wrap #main #section2 .container .gap .wrap .content ul li {
+    width: 100%;
+  }
+  #wrap #main #section2 .container .gap .wrap .content ul li .content-gap .content-wrap .content-bottom {
+    padding: 15px;
+  }
+  #wrap #main #section2 .container .gap .wrap .content ul li .content-gap .content-wrap .content-bottom h3 {
+    font-size: 12px;
+    padding: 10px 0 20px 0;
+  }
+  #wrap #main #section2 .container .gap .wrap .content ul li .content-gap .content-wrap .content-bottom p {
+    font-size: 12px;
+    padding: 0 0 20px 0;
+  }
+  #wrap #main #section2 .container .gap .wrap .content ul li .content-gap .content-wrap .content-bottom > span {
+    width: 40%;
+  }
+  #wrap #main #section2 .container .gap .wrap .content ul li .content-gap .content-wrap .content-bottom > span a span strong {
+    font-size: 11px;
+  }
+  #wrap #main #section2 .container .gap .wrap .content ul li .content-gap .content-wrap .content-bottom > span a span i {
+    font-size: 15px;
+  }
+  #wrap #main #section3 {
+    padding: 40px 0;
+  }
+  #wrap #main #section3 .container .gap .wrap .title {
+    padding: 0 0 40px 0;
+  }
+  #wrap #main #section3 .container .gap .wrap .title h2 {
+    font-size: 20px;
+    padding: 0 15px;
+  }
+  #wrap #main #section3 .container .gap .wrap .content > ul > li {
+    width: 100%;
+  }
+  #wrap #main #section3 .container .gap .wrap .content > ul > li h5 {
+    font-size: 12px;
+  }
+  #wrap #main #section3 .container .gap .wrap .content > ul > li p {
+    font-size: 12px;
+  }
+  #wrap #main #section4 .container .gap .wrap .menu-box > ul {
+    flex-flow: column wrap;
+  }
+  #wrap #main #section4 .container .gap .wrap .menu-box > ul > li {
+    width: 100%;
+    margin: 5px 0;
+  }
+  #wrap #main #section5 .container .gap .wrap ul li {
+    width: 100%;
+  }
+  #wrap #main #section6 {
+    padding: 40px 0;
+  }
+  #wrap #main #section6 .container .gap .wrap .title {
+    padding: 0 0 40px 0;
+  }
+  #wrap #main #section6 .container .gap .wrap .title h2 {
+    font-size: 20px;
+    padding: 0 15px;
+  }
+  #wrap #main #section6 .container .gap .wrap .content > ul > li {
+    width: 100%;
+  }
+  #wrap #main #section6 .container .gap .wrap .content > ul > li .text-box {
+    width: 100%;
+    margin: 0 auto;
+  }
+  #wrap #main #section7 .container .gap .wrap .right-box .right-content-box {
+    padding: 30px 0;
+  }
+  #wrap #main #section7 .container .gap .wrap .right-box .right-content-box h2 {
+    font-size: 24px;
+  }
+  #wrap #main #section7 .container .gap .wrap .right-box .right-content-box p {
+    font-size: 12px;
+  }
+  #wrap #main #section8 {
+    padding: 40px 0;
+  }
+  #wrap #main #section8 .container .gap .wrap .title {
+    padding: 0 0 40px 0;
+  }
+  #wrap #main #section8 .container .gap .wrap .title h2 {
+    font-size: 20px;
+    padding: 0 15px;
+  }
+  #wrap #main #section8 .container .gap .wrap .content > ul > li {
+    width: 100%;
+  }
+  #wrap #main #section8 .container .gap .wrap .content > ul > li .content-gap .content-wrap {
+    text-align: center;
+  }
+  #wrap #main #section8 .container .gap .wrap .content > ul > li .content-gap .content-wrap .content-mid {
+    padding: 15px 0;
+  }
+  #wrap #main #section8 .container .gap .wrap .content > ul > li .content-gap .content-wrap .content-bottom {
+    padding: 15px 0 0 0;
+  }
+  #wrap #main #section8 .container .gap .wrap .content > ul > li .content-gap .content-wrap .content-bottom p {
+    font-size: 12px;
+  }
+  #wrap #footer {
+    padding: 30px 0;
+  }
+  #wrap #footer .container .gap .wrap .top-box {
+    flex-flow: column wrap;
+    padding: 0;
+  }
+  #wrap #footer .container .gap .wrap .top-box .top-title {
+    padding: 0;
+    text-align: center;
+  }
+  #wrap #footer .container .gap .wrap .top-box .top-title1 {
+    width: 100%;
+    padding: 0 0 30px 0;
+  }
+  #wrap #footer .container .gap .wrap .top-box .top-title1 h6 {
+    font-size: 18px;
+  }
+  #wrap #footer .container .gap .wrap .top-box .top-title2 {
+    width: 100%;
+    padding: 0;
+    padding: 0 0 30px 0;
+  }
+  #wrap #footer .container .gap .wrap .top-box .top-title2 span {
+    font-size: 12px;
+  }
+  #wrap #footer .container .gap .wrap .top-box .top-title3 {
+    width: 100%;
+    padding: 0 0 30px 0;
+  }
+  #wrap #footer .container .gap .wrap .top-box .top-title3 ul {
+    justify-content: center;
+  }
+  #wrap #footer .container .gap .wrap .bottom-box {
+    flex-flow: column wrap;
+    justify-content: center;
+    padding: 15px 0 0 0;
+  }
+  #wrap #footer .container .gap .wrap .bottom-box .left-box {
+    margin: 0 auto 10px auto;
+  }
+  #wrap #footer .container .gap .wrap .bottom-box .right-box {
+    margin: 0 auto;
+  }
+}
